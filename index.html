@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      .ye1 {
+        background-color: rgba(255, 255, 128, 0.6);
+      }
+      .pur1 {
+        background-color: rgba(230, 204, 255, 0.7);
+      }
+      .gr1 {
+        background-color: rgba(187, 255, 153, 0.6);
+      }
+    </style>
+  </head>
+  <body>
+    <table align="center" border="1">
+      <thead>
+        <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="4">Seminar</th>
+        </tr>
+        <tr>
+          <th colspan="2">Schedule</th>
+          <th colspan="2" rowspan="2">Topic</th>
+        </tr>
+        <tr>
+          <th>Begin</th>
+          <th>End</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td class="ye1" rowspan="2">8:00 a.m</td>
+          <td class="pur1" rowspan="2">5:00 p.m</td>
+          <td colspan="2">Introduction to XML</td>
+        </tr>
+        <tr>
+          <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+          <td rowspan="6">Tuesday</td>
+          <td class="ye1" rowspan="2">8:00 a.m</td>
+          <td class="ye1" rowspan="2">11:00 a.m</td>
+          <td rowspan="3">XPath</td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td class="ye1" rowspan="2">11:00 a.m</td>
+          <td class="gr1" rowspan="2">2:00 p.m</td>
+        </tr>
+        <td rowspan="3">XSL Transformations</td>
+        <tr>
+          <td class="gr1" rowspan="2">2:00 p.m</td>
+          <td class="pur1" rowspan="2">5:00 p.m</td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td>Wednesday</td>
+          <td class="ye1">8:00 a.m</td>
+          <td class="gr1">12:00 p.m</td>
+          <td>XSL Formatting Objects</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+  </body>
+</html>
